@@ -13,4 +13,4 @@ function  writeCards(Cards) {
 
  writeCards(Cards);
 
-countDown (4);
+//countDown (4);
