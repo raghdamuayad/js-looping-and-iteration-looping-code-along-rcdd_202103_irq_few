@@ -2,15 +2,16 @@
 
 const Cards = ["Lisa","Kaitlin","Jan"];
 function  writeCards(Cards) {
+const  newarray=[];
   for (let i = 0; i < Cards.length; i++) {
-    console.log(`Thank you,${Cards[i]}, for the wonderful surprise gift!`);
+    newarray.push (`Thank you,${Cards[i]}, for the wonderful surprise gift!`);
 
   }
 
 
-  return writeCards;
+  return newarray ;
 }
 
- writeCards(Cards);
+ writeCards(newarray);
 
 //countDown (4);
