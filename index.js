@@ -13,5 +13,10 @@ const  newarray=[];
 }
 
  writeCards(Cards);
-
-//countDown (4);
+function  countDown(max) {
+  
+  for (let i = max; i > 0; i--) {
+    console.log(i);
+  }
+}
+countDown (4);
