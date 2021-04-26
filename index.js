@@ -19,4 +19,4 @@ function  countDown(max) {
     console.log(i);
   }
 }
-countDown (4);
+countDown (10);
