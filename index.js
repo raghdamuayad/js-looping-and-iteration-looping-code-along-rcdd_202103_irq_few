@@ -12,6 +12,6 @@ const  newarray=[];
   return newarray ;
 }
 
- writeCards(newarray);
+ writeCards(Cards);
 
 //countDown (4);
